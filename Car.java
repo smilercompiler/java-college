@@ -1,4 +1,4 @@
-public class Car {
+/*public class Car {
     String make;
     String model;
     int year;
@@ -20,4 +20,25 @@ public class Car {
         Car myCar = new Car("Tesla", "Model 3", 2025);
         myCar.displayDetails();
     }
+}*/
+
+class Car extends Vehicle {
+    public Car(String make, String model) {
+        super(make, model);
+    }
+
+    @Override
+    public void startEngine() {
+        System.out.println(make + " " + model + "'s engine is starting...");
+    }
+
+    @Override
+    public void stopEngine() {
+        System.out.println(make + " " + model + "'s engine is stopping...");
+    }
 }
+
+ 
+
+
+

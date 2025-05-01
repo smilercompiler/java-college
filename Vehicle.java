@@ -15,7 +15,7 @@
         }
     }
     
-    class Car extends Vehicle {
+    /*class Car extends Vehicle {
         public Car(String make, String model) {
             super(make, model);
         }
@@ -29,7 +29,7 @@
         public void stopEngine() {
             System.out.println(make + " " + model + "'s engine is stopping...");
         }
-    }
+    }*/
     
      
     
